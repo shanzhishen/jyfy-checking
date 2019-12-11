@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.jyfy.checking.mapper.RoleMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.com.jyfy.checking.entity.RoleDO">
+        <id column="ROLE_ID" property="roleId" />
+        <result column="ROLE_NAME" property="roleName" />
+        <result column="CREATE_TIME" property="createTime" />
+        <result column="STATE" property="state" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ROLE_ID, ROLE_NAME, CREATE_TIME, STATE
+    </sql>
+
+</mapper>

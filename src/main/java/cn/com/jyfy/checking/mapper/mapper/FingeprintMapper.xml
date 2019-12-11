@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.jyfy.checking.mapper.FingerprintMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.com.jyfy.checking.entity.FingerprintDO">
+        <id column="ID" property="id" />
+        <result column="JNUM" property="jnum" />
+        <result column="NAME" property="name" />
+        <result column="NEED_PRINT" property="needPrint" />
+        <result column="REAL_PRINT" property="realPrint" />
+        <result column="PRINT_RATE" property="printRate" />
+        <result column="START_DATE" property="startDate" />
+        <result column="END_DATE" property="endDate" />
+        <result column="CREATE_TIME" property="createTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ID, JNUM, NAME, NEED_PRINT, REAL_PRINT, PRINT_RATE, START_DATE, END_DATE, CREATE_TIME
+    </sql>
+
+    <select id="getSumFingerPrint" resultType="java.util.HashMap">
+        select t.need_print "need",t.real_print "real", t.print_rate "rate"   ,t.jnum "jnum",t.name "name"
+        from cs_fingeprint t
+        where start_date = to_date(${start},'yyyyMMdd')
+    </select>
+
+</mapper>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.jyfy.checking.mapper.UsersMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.com.jyfy.checking.entity.UsersDO">
+        <id column="JNUM" property="jnum" />
+        <result column="ROLE_ID" property="roleId" />
+        <result column="USER_NAME" property="userName" />
+        <result column="PASSWORD" property="password" />
+        <result column="CREATE_TIME" property="createTime" />
+        <result column="STATE" property="state" />
+        <result column="IS_ADMIN" property="isAdmin" />
+        <result column="ORD" property="ord" />
+        <result column="POSITION" property="position" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        JNUM, ROLE_ID, USER_NAME, PASSWORD, CREATE_TIME, STATE, IS_ADMIN, ORD,POSITION
+    </sql>
+
+    <select id="normalUsers" resultType="map">
+        select jnum "jnum", user_name "userName" from cs_users where position > 10 and state = 1 order by ord
+    </select>
+
+
+</mapper>

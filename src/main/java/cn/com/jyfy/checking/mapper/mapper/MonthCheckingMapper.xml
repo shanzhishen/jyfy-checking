@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.jyfy.checking.mapper.MonthCheckingMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.com.jyfy.checking.entity.MonthCheckingDO">
+        <id column="ID" property="id"/>
+        <result column="CHECK_ID" property="checkId"/>
+        <result column="LEADER_JNUM" property="leaderJnum"/>
+        <result column="LEADER_NAME" property="leaderName"/>
+        <result column="CHECKED_JNUM" property="checkedJnum"/>
+        <result column="CHECKED_NAME" property="checkedName"/>
+        <result column="BASIC_POINTS" property="basicPoints"/>
+        <result column="COM_POINTS" property="comPoints"/>
+        <result column="CREATE_TIME" property="createTime"/>
+        <result column="TOTAL" property="total"/>
+        <result column="STATE" property="state"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ID, CHECK_ID, LEADER_JNUM, LEADER_NAME, CHECKED_JNUM, CHECKED_NAME, BASIC_POINTS, COM_POINTS, CREATE_TIME, STATE
+    </sql>
+
+    <select id="sumMonthScore" resultType="java.util.HashMap">
+        select sum(t.basic_points)/count(1) "perBasic",sum(t.com_points)/count(1) "perCom",t.checked_jnum "jnum",t.checked_name "userName"
+        from cs_month_checking t
+        where check_id = ${checkId}
+        group by t.checked_jnum,t.checked_name
+    </select>
+
+    <select id="getMonthScore" resultType="java.util.HashMap">
+        select a.jnum "jnum",a.user_name "userName", nvl(b.basic_points,0) "basicPoints",nvl(b.com_points,0) "comPoints",
+                nvl(b.total,0) "total", nvl(b.state,0) "state"
+        from cs_users a left join cs_month_checking b on a.jnum = b.checked_jnum
+        and b.check_id = ${checkId} and b.leader_jnum = '${jnum}'
+        where a.position > 10 and a.state = 1
+        order by a.ord
+    </select>
+
+    <select id="getLeaderToEmpScore" resultType="hashmap">
+        select a.jnum as "jnum",
+       a.user_name as "userName",
+       a.leader_jnum as "leaderJnum",
+       a.leader_name as "leaderName",
+       nvl(to_char(b.basic_points),'-') as "basicPoints",
+       nvl(to_char(b.com_points),'-') as "comPoints",
+       nvl(to_char(b.total),'-') as "total"
+          from v_emp_leader_rel a
+          left join (select * from cs_month_checking where check_id = ${checkId}) b
+          on a.jnum = b.checked_jnum and a.leader_jnum = b.leader_jnum
+
+    </select>
+
+</mapper>

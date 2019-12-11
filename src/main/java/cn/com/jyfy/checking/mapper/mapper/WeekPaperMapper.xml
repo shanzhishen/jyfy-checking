@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.jyfy.checking.mapper.WeekPaperMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.com.jyfy.checking.entity.WeekPaperDO">
+        <id column="WEEK_ID" property="weekId"/>
+        <result column="PROJECT_ID" property="projectId"/>
+        <result column="PROJECT_NAME" property="projectName"/>
+        <result column="ENGINEER_NAME" property="engineerName"/>
+        <result column="WORK_HOURS" property="workHours"/>
+        <result column="STATE" property="state"/>
+        <result column="SUNDAY" property="sunday"/>
+        <result column="MONDAY" property="monday"/>
+        <result column="WEEK_NUM" property="weekNum"/>
+        <result column="ESTABLISH_TIME" property="establishTime"/>
+        <result column="ESTABLISH_JNUM" property="establishJnum"/>
+        <result column="MODIFIED_TIME" property="modifiedTime"/>
+        <result column="MODIFIED_JNUM" property="modifiedJnum"/>
+        <result column="CREATE_TIME" property="createTime"/>
+        <result column="SITUATION" property="situation"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        WEEK_ID, PROJECT_ID, PROJECT_NAME, ENGINEER_NAME, WORK_HOURS, STATE, SUNDAY, MONDAY, WEEK_NUM, ESTABLISH_TIME, ESTABLISH_JNUM, MODIFIED_TIME, MODIFIED_JNUM, CREATE_TIME, SITUATION
+    </sql>
+
+    <select id="getUnHandlerPaper" resultType="hashmap">
+select project_id   "projectId",
+       project_name "projectName",
+       pname        "pname",
+       jnum1        "jnum1",
+       jnum2        "jnum2",
+       jnum3        "jnum3"
+  from cs_project_info
+ where state = 1 and project_id not in
+       (select distinct pid
+          from cs_project_info
+        union
+        select project_id from cs_week_paper where monday = to_date('${monday}','YYYY-MM-DD HH24:MI:SS'))
+    </select>
+
+
+    <select id="getSafeProject" resultType="hashmap">
+select
+ project_id "projectId",
+ project_name "projectName",
+ pid "pid",
+ pname "pname"
+ from cs_project_info
+ where project_id in (
+select project_id
+  from cs_week_paper
+ where week_id not in (select week_id from cs_week_paper_detail  )
+ and monday = to_date('${monday}','yyyy-MM-dd'))
+    </select>
+</mapper>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.jyfy.checking.mapper.DailyWorkMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.com.jyfy.checking.entity.DailyWorkDO">
+        <id column="ID" property="id"/>
+        <result column="INTRO" property="intro"/>
+        <result column="POINTS" property="points"/>
+        <result column="DAY" property="day"/>
+        <result column="CREATE_DATE" property="createDate"/>
+        <result column="JNUM" property="jnum"/>
+        <result column="USER_NAME" property="userName"/>
+        <result column="TYPE" property="type"/>
+        <result column="TYPE_NAME" property="typeName"/>
+        <result column="INF1" property="inf1"/>
+        <result column="INF2" property="inf2"/>
+        <result column="APPLY_JNUM" property="applyJnum"/>
+        <result column="APPLY_NAME" property="applyName"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ID, INTRO, POINTS, DAY, CREATE_DATE, JNUM, USER_NAME, TYPE,TYPE_NAME, INF1, INF2,APPLY_JNUM,APPLY_NAME
+    </sql>
+
+    <select id="sumDailyWork" resultType="java.util.HashMap">
+        select nvl(sum(t.points),0) "point",a.jnum "jnum",a.user_name "userName"
+        from cs_users a left join  cs_daily_work t on a.jnum = t.jnum
+              and t.day >= to_date(${start},'yyyyMMddHH24miss')
+              and t.day &lt;= to_date(${end},'yyyyMMddHH24miss')
+        where
+              a.position > 10 and a.state = 1
+        group by a.jnum,a.user_name
+    </select>
+
+    <select id="sumPlusDailyWork" resultType="java.util.HashMap">
+        select nvl(sum(t.points),0) "point",a.jnum "jnum",a.user_name "userName"
+        from cs_users a left join  cs_daily_work t on a.jnum = t.jnum and t.points >= 0
+              and t.day >= to_date(${start},'yyyyMMddHH24miss')
+              and t.day &lt;= to_date(${end},'yyyyMMddHH24miss')
+        where a.position > 10 and a.state = 1
+        group by a.jnum,a.user_name
+    </select>
+
+
+    <select id="sumMinusDailyWork" resultType="java.util.HashMap">
+        select nvl(sum(t.points),0) "point",a.jnum "jnum",a.user_name "userName"
+        from cs_users a left join  cs_daily_work t on a.jnum = t.jnum and t.points &lt; 0
+              and t.day >= to_date(${start},'yyyyMMddHH24miss')
+              and t.day &lt;= to_date(${end},'yyyyMMddHH24miss')
+        where a.position > 10 and a.state = 1
+        group by a.jnum,a.user_name
+    </select>
+
+
+</mapper>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.jyfy.checking.mapper.ProjectInfoMapper">
+
+    <!-- 通用查询结果列 -->
+    <resultMap id="BaseResultMap" type="cn.com.jyfy.checking.entity.ProjectInfoDO">
+        <id column="PROJECT_ID" property="projectId"/>
+        <result column="PROJECT_NAME" property="projectName"/>
+        <result column="PID" property="pid"/>
+        <result column="PNAME" property="pname"/>
+        <result column="CREATE_TIME" property="createTime"/>
+        <result column="STAGE" property="stage"/>
+        <result column="PROGRESS" property="progress"/>
+        <result column="INFO" property="info"/>
+        <result column="REMARK" property="remark"/>
+        <result column="STATE" property="state"/>
+        <result column="TYPE" property="type"/>
+        <result column="JNUM1" property="jnum1"/>
+        <result column="JNUM2" property="jnum2"/>
+        <result column="JNUM3" property="jnum3"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        PROJECT_ID, PROJECT_NAME, PID, PNAME, CREATE_TIME, STAGE, PROGRESS, INFO, REMARK, STATE, TYPE,JNUM1,JNUM2,JNUM3
+    </sql>
+
+    <select id="getProjectId" resultType="hashmap">
+        select project_id "projectId",project_name "projectName"
+        from cs_project_info
+        where state = 1
+        <if test="pid!=null and pid!=''">
+            and pid = '${pid}'
+        </if>
+        ORDER BY nlssort(PROJECT_NAME, 'NLS_SORT=SCHINESE_PINYIN_M')
+    </select>
+</mapper>
