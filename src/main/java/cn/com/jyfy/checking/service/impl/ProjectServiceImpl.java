@@ -85,6 +85,7 @@ public class ProjectServiceImpl implements ProjectService {
         }
     }
 
+
     @Override
     public void updateWeekPaper(WeekPaperDO weekPaperDO) {
         weekPaperMapper.updateById(weekPaperDO);
@@ -108,6 +109,7 @@ public class ProjectServiceImpl implements ProjectService {
             }
         }
     }
+
 
     @Override
     public String downloadPapers(String week, String jnum) {
@@ -243,6 +245,7 @@ public class ProjectServiceImpl implements ProjectService {
      */
     public String downloadSummary(String week) {
         LocalDateTime monday = StringUtil.getMonday(StringUtil.getDateTimeByString(week));
+
         String mondayStr = monday.format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
         // 2019.10.07-2019.10.13（2019年第41周）
         String startDate = monday.format(DateTimeFormatter.ofPattern("yyyy.MM.dd"));
@@ -260,7 +263,7 @@ public class ProjectServiceImpl implements ProjectService {
         int notOneClass = projectInfoMapper.selectCount(notOneClassWrapper);
 
         // 稳定运行系统：（无新需求或问题）
-        List<Map<String, Object>> safeSystemList = getSafeSyatem(startDate);
+        List<Map<String, Object>> safeSystemList = getSafeSyatem(mondayStr);
 
         List<WeekPaperDO> weekPapers = getWeekPaper(monday);
         /**
@@ -291,8 +294,9 @@ public class ProjectServiceImpl implements ProjectService {
         result.put("questionTree", questionModels);
         result.put("nextWeekTree", nextWeekModels);
 
-        String fileFullPath = fileSavePath + "test" + (int) (Math.random() * 1000) + ".docx";
+        String fileFullPath = fileSavePath + "test" + (int) (Math.random() * 1000) + ".doc";
         wordUtil.createWord(result, "07weekPaperSummary.ftl", fileFullPath);
+
         return fileFullPath;
     }
 

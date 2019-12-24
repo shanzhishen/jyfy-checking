@@ -199,10 +199,20 @@ public class StringUtil {
         }
     }
 
+    public static String delSpecialChar(String str){
+        if(isNull(str)){
+            return str;
+        }
+        return str.trim().replaceAll("\\n","")
+                .replaceAll("\\t","")
+                .replaceAll("\\r","");
+    }
 
 
     public static void main(String[] args) {
-        String str = "A13042";
-        System.out.println(regBoolean(str, PWD_REG));
+        String str = "A13042\n" +
+                "\n" +
+                "Process finished with exit code 0";
+        System.out.println(delSpecialChar(str));
     }
 }

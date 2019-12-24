@@ -53,13 +53,24 @@ public class WeekPaperController {
             return new JsonObject("周数据错误");
         }
         UsersDO usersDO = LoginController.getUser(request);
-
+        StringUtil.printJson(weekPaperDO);
         LocalDateTime monday = StringUtil.getMonday(weekPaperDO.getWeek());
         weekPaperDO.setMonday(monday);
         weekPaperDO.setSunday(monday.plusDays(7).minusNanos(1));
         weekPaperDO.setModifiedJnum(usersDO.getJnum());
         weekPaperDO.setModifiedTime(LocalDateTime.now());
         weekPaperDO.setState(1);
+
+        // 清理特殊字符
+        List<WeekPaperDetailDO> detailDOS = weekPaperDO.getDetails();
+        for (WeekPaperDetailDO detailDO : detailDOS) {
+            detailDO.setContent(StringUtil.delSpecialChar(detailDO.getContent()));
+            detailDO.setOperSituation(StringUtil.delSpecialChar(detailDO.getOperSituation()));
+            detailDO.setOperProgress(StringUtil.delSpecialChar(detailDO.getOperProgress()));
+            detailDO.setOperRate(StringUtil.delSpecialChar(detailDO.getOperRate()));
+        }
+
+
         weekPaperDO.setWeekNum(monday.get(WeekFields.of(DayOfWeek.MONDAY, 1).weekOfYear()));
         if (StringUtil.isNull(weekPaperDO.getWeekId())) {
             weekPaperDO.setEstablishJnum(usersDO.getJnum());
