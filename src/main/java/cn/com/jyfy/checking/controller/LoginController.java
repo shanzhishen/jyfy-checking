@@ -8,6 +8,7 @@ import cn.com.jyfy.checking.utils.JsonObject;
 import cn.com.jyfy.checking.utils.LoginException;
 import cn.com.jyfy.checking.utils.Md5Util;
 import cn.com.jyfy.checking.utils.StringUtil;
+import cn.com.jyfy.checking.utils.annotation.RequiresRoles;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import io.swagger.annotations.Api;
@@ -74,7 +75,7 @@ public class LoginController {
     @GetMapping("getMenu")
     public JsonObject getMenu(HttpServletRequest request, @RequestHeader("server-code") Integer serverCode) {
         if(serverCode == null){
-            serverCode = 1;
+            return new JsonObject("参数错误");
         }
         UsersDO usersDO = getUser(request);
         return loginService.getMenu(usersDO,serverCode);
@@ -123,6 +124,13 @@ public class LoginController {
         updateWrapper.eq("jnum",usersDO.getJnum());
         usersMapper.update(usersDO,updateWrapper);
         return new JsonObject();
+    }
+
+    @GetMapping("test")
+    @RequiresRoles("worker")
+    public JsonObject test(){
+        System.out.println("test");
+        return new JsonObject(JsonObject.SUCCESS,"test");
     }
 
 }

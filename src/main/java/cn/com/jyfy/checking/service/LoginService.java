@@ -14,7 +14,7 @@ public interface LoginService {
      * @param request
      * @return
      */
-    public JsonObject login(String jnum, String password, HttpServletRequest request);
+    JsonObject login(String jnum, String password, HttpServletRequest request);
 
     /**
      * 获取menu
@@ -22,6 +22,14 @@ public interface LoginService {
      * @param server
      * @return
      */
-    public JsonObject getMenu(UsersDO usersDO, Integer server);
+    JsonObject getMenu(UsersDO usersDO, Integer server);
+
+    /**
+     * 获取用户所有权限
+     * @param jnum
+     * @return
+     */
+    UsersDO getFullUser(String jnum);
+
 
 }

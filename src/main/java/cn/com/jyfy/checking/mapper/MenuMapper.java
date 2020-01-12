@@ -6,6 +6,7 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
+import java.util.Set;
 
 /**
  * <p>
@@ -18,5 +19,5 @@ import java.util.List;
 @Mapper
 public interface MenuMapper extends BaseMapper<MenuDO> {
 
-    List<MenuDO> getMenu(@Param("jnum") String jnum,@Param("server") Integer server);
+    List<MenuDO> getMenu(@Param("roles") Set<String> roles, @Param("server") Integer server);
 }

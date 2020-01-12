@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.jyfy.checking.mapper.CheckingInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.com.jyfy.checking.entity.CheckingInfoDO">
+        <id column="CHECK_ID" property="checkId" />
+        <result column="CHECK_NAME" property="checkName" />
+        <result column="START_DATE" property="startDate" />
+        <result column="END_DATE" property="endDate" />
+        <result column="INTRO" property="intro" />
+        <result column="CREATE_TIME" property="createTime" />
+        <result column="STATE" property="state" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CHECK_ID, CHECK_NAME, START_DATE, END_DATE, INTRO,STATE
+    </sql>
+
+</mapper>

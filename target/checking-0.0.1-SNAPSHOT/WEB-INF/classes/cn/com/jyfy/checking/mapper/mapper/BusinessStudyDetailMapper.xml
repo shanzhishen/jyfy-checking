@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.jyfy.checking.mapper.BusinessStudyDetailMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.com.jyfy.checking.entity.BusinessStudyDetailDO">
+        <id column="ID" property="id"/>
+        <result column="STUDY_ID" property="studyId"/>
+        <result column="SCORE1" property="score1"/>
+        <result column="SCORE2" property="score2"/>
+        <result column="SCORE3" property="score3"/>
+        <result column="SCORE4" property="score4"/>
+        <result column="JNUM" property="jnum"/>
+        <result column="USER_NAME" property="userName"/>
+        <result column="CREATE_TIME" property="createTime"/>
+        <result column="TOTAL_SCORE" property="totalScore"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ID, STUDY_ID, SCORE1, SCORE2, SCORE3, SCORE4, JNUM, USER_NAME, CREATE_TIME, TOTAL_SCORE
+    </sql>
+
+
+    <select id="notSendScore" resultType="hashmap">
+        select jnum "jnum", user_name "username"
+          from cs_users
+         where role_id > 10 and state = 1
+           and jnum not in
+               (select jnum from cs_business_study_detail where study_id = ${id})
+    </select>
+</mapper>

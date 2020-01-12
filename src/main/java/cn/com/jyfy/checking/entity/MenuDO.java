@@ -44,35 +44,6 @@ public class MenuDO extends Model<MenuDO> {
 
     private Long roleId;
 
-    /**
-     * 新增
-     */
-    private Integer cre;
-
-    /**
-     * 查看
-     */
-    private Integer sel;
-
-    /**
-     * 修改
-     */
-    private Integer upd;
-
-    /**
-     * 删除
-     */
-    private Integer del;
-
-    /**
-     * 下载
-     */
-    private Integer download;
-
-    /**
-     * 上传
-     */
-    private Integer upload;
 
     @Override
     protected Serializable pkVal() {

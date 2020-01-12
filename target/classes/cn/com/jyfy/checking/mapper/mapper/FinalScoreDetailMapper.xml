@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.jyfy.checking.mapper.FinalScoreDetailMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.com.jyfy.checking.entity.FinalScoreDetailDO">
+        <id column="ID" property="id"/>
+        <result column="CHECK_ID" property="checkId"/>
+        <result column="JNUM" property="jnum"/>
+        <result column="USER_NAME" property="userName"/>
+        <result column="TYPE" property="type"/>
+        <result column="POINT" property="point"/>
+        <result column="CONTENT" property="content"/>
+        <result column="CREATE_TIME" property="createTime"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ID, CHECK_ID, JNUM, USER_NAME, TYPE, POINT, COMTENT, CREATE_TIME
+    </sql>
+
+
+    <select id="getAllDetailScore" resultType="java.util.HashMap">
+        select a.jnum "jnum",a.user_name "userName",t.type "type",t.point "point",to_char(t.month,'yyyy-MM') "month"
+        from cs_users a left join cs_final_score_detail t on a.jnum=t.jnum
+        where t.check_id = ${checkId} and a.position > 10 and a.state = 1
+        <if test="list!=null">
+            and type in
+            <foreach collection="list" separator="," open="(" close=")" item="item">
+                #{item}
+            </foreach>
+        </if>
+        order by t.month,a.ord,t.jnum,t.type
+    </select>
+
+    <select id="getFinalScoreDetail" resultType="java.util.HashMap">
+        select sum(point) "point",jnum "jnum",user_name "userName",month "month"
+        from cs_final_score_detail
+        where check_id = ${checkId}
+        and month = to_date(${month},'yyyyMMdd')
+        and type in
+        <foreach collection="types" index="index" item="item" open="(" close=")" separator=",">
+          #{item}
+        </foreach>
+        group by jnum,user_name,month
+    </select>
+
+</mapper>

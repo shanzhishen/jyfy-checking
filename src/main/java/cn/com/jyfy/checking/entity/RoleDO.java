@@ -33,6 +33,7 @@ public class RoleDO extends Model<RoleDO> {
 
     private Integer state;
 
+    private String roleCode;
 
     @Override
     protected Serializable pkVal() {

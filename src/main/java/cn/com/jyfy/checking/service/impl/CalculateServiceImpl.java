@@ -162,10 +162,11 @@ public class CalculateServiceImpl implements CalculateService {
             }
             logger.info(startStr + " 班次得分的最大值： " + max);
             Double perScore = maxScore / max;
-
+            System.out.println("===>" + scoreDOMap);
+            StringUtil.printJson(usersDOMap);
             for (Map.Entry<String, ClassScoreDO> entry : scoreDOMap.entrySet()) {
                 ClassScoreDO scoreDO = entry.getValue();
-
+                System.out.println(scoreDO);
                 UsersDO usersDO = usersDOMap.get(scoreDO.getUserName());
                 if (usersDO.getRoleId() < 10) {
                     continue;

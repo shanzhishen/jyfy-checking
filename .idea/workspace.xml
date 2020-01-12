@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="checking:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9fc569e1-b9ca-43f4-b6b2-c6b989212986" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/checking_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/checking_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_easyexcel_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_57.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_trove4j_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__oracle_ojdbc_ojdbc7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_engine_core_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checking.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/entity/MenuElementDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/mapper/MenuElementMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/mapper/mapper/MenuElementMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/utils/annotation/RequiresPermissions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/utils/annotation/RequiresRoles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/META-INF/checking.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/application-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/CheckingApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/ServletInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/aspect/AuthAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/conf/CorsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/conf/GlobalExceptionHandler$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/conf/GlobalExceptionHandler$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/conf/GlobalExceptionHandler$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/conf/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/conf/MybatisConf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/conf/SwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/controller/BusinessStudyController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/controller/CalculateController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/controller/CheckInfoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/controller/ClassesController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/controller/DailyWorkController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/controller/FinalDetailScoreController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/controller/FinalScoreController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/controller/FingerprintController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/controller/MonthCheckingController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/controller/ProjectController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/controller/UploadController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/controller/UserCheckingController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/controller/UserStatusController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/controller/UsersController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/controller/WeekPaperController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/entity/BusinessStudyDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/entity/BusinessStudyDetailDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/entity/CheckingInfoDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/entity/ClassPointsDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/entity/ClassScoreDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/entity/ClassTypeDicDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/entity/ClassesDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/entity/DailyTypeDicDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/entity/DailyWorkDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/entity/DateInMonthDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/entity/DictTypeDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/entity/FinalScoreDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/entity/FinalScoreDetailDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/entity/FinalScoreTypeDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/entity/FingerprintDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/entity/MenuDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/entity/MenuPermissionDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/entity/MonthCheckingDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/entity/ProjectInfoDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/entity/RoleDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/entity/UserCheckingDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/entity/UserMonthStatusDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/entity/UsersDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/entity/WeekPaperDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/entity/WeekPaperDetailDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/entity/model/PProjectModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/entity/model/ProjectModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/entity/model/WeekPaperTreeModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/excel/ClassExcelListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/BusinessStudyDetailMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/BusinessStudyMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/CheckingInfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/ClassPointsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/ClassScoreMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/ClassTypeDicMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/ClassesMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/DailyTypeDicMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/DailyWorkMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/DictTypeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/FinalScoreDetailMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/FinalScoreMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/FinalScoreTypeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/FingerprintMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/MenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/MenuPermissionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/MonthCheckingMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/ProjectInfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/RoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/UserCheckingMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/UserMonthStatusMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/UsersMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/WeekPaperDetailMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/WeekPaperMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/mapper/BusinessStudyDetailMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/mapper/BusinessStudyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/mapper/CheckingInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/mapper/ClassPointMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/mapper/ClassScoreMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/mapper/ClassTypeDicMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/mapper/ClassesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/mapper/DailyTypeDicMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/mapper/DailyWorkMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/mapper/DictTypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/mapper/FinalScoreDetailMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/mapper/FinalScoreMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/mapper/FinalScoreTypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/mapper/FingeprintMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/mapper/MenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/mapper/MenuPermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/mapper/MonthCheckingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/mapper/ProjectInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/mapper/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/mapper/UserCheckingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/mapper/UserMonthStatusMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/mapper/UsersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/mapper/WeekPaperDetailMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/mapper/mapper/WeekPaperMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/schedule/ScheduleMission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/service/CalculateService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/service/LoginService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/service/ProjectService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/service/UploadService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/service/impl/CalculateServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/service/impl/LoginServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/service/impl/ProjectServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/service/impl/UploadServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/utils/CheckException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/utils/CommonUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/utils/CommonValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/utils/EasyExcelUtil$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/utils/EasyExcelUtil$ModelExcelListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/utils/EasyExcelUtil$StringExcelListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/utils/EasyExcelUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/utils/FileUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/utils/JsonObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/utils/LoginException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/utils/Md5Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/utils/RegImageUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/utils/StringUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/word/WordUtil$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/cn/com/jyfy/checking/word/WordUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/static/07weekPaperSummary.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/static/test1.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/static/weekPaper.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/classes/static/weekPaperSummary.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/HikariCP-3.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.9.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/byte-buddy-1.9.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/classmate-1.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/commons-beanutils-1.9.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/commons-codec-1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/commons-collections-3.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/commons-collections4-4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/commons-compress-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/commons-io-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/commons-lang3-3.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/core-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/curvesapi-1.04.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/easyexcel-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/fastjson-1.2.57.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/freemarker-2.3.29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/guava-20.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-validator-6.0.16.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-datatype-jdk8-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-datatype-jsr310-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-module-parameter-names-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/javax.annotation-api-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/jsqlparser-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/jul-to-slf4j-1.7.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-api-2.11.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-to-slf4j-2.11.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/logback-classic-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/logback-core-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/mapstruct-1.2.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/mybatis-3.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/mybatis-plus-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/mybatis-plus-annotation-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/mybatis-plus-boot-starter-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/mybatis-plus-core-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/mybatis-plus-extension-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/mybatis-plus-generator-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/mybatis-spring-2.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/ojdbc7-7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/poi-3.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/poi-ooxml-3.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/poi-ooxml-schemas-3.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/snakeyaml-1.23.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/spring-aop-5.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/spring-beans-5.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-2.1.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-2.1.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-2.1.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-aop-2.1.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-jdbc-2.1.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-json-2.1.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-logging-2.1.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-web-2.1.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-5.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/spring-core-5.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/spring-expression-5.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jcl-5.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/spring-plugin-core-1.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/spring-plugin-metadata-1.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/spring-tx-5.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/spring-web-5.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/springfox-core-2.9.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/springfox-schema-2.9.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/springfox-spi-2.9.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/springfox-spring-web-2.9.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/springfox-swagger-common-2.9.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/springfox-swagger-ui-2.9.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/springfox-swagger2-2.9.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/stax-api-1.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/swagger-annotations-1.5.20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/swagger-models-1.5.20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/validation-api-2.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/velocity-engine-core-2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checking-0.0.1-SNAPSHOT/WEB-INF/lib/xmlbeans-2.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/checking.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/CheckingApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/ServletInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/aspect/AuthAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/conf/CorsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/conf/GlobalExceptionHandler$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/conf/GlobalExceptionHandler$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/conf/GlobalExceptionHandler$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/conf/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/conf/MybatisConf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/conf/SwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/controller/BusinessStudyController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/controller/CalculateController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/controller/CheckInfoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/controller/ClassesController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/controller/DailyWorkController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/controller/FinalDetailScoreController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/controller/FinalScoreController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/controller/FingerprintController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/controller/MonthCheckingController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/controller/ProjectController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/controller/UploadController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/controller/UserCheckingController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/controller/UserStatusController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/controller/UsersController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/controller/WeekPaperController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/entity/BusinessStudyDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/entity/BusinessStudyDetailDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/entity/CheckingInfoDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/entity/ClassPointsDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/entity/ClassScoreDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/entity/ClassTypeDicDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/entity/ClassesDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/entity/DailyTypeDicDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/entity/DailyWorkDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/entity/DateInMonthDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/entity/DictTypeDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/entity/FinalScoreDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/entity/FinalScoreDetailDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/entity/FinalScoreTypeDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/entity/FingerprintDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/entity/MenuDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/entity/MenuElementDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/entity/MenuPermissionDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/entity/MonthCheckingDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/entity/ProjectInfoDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/entity/RoleDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/entity/UserCheckingDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/entity/UserMonthStatusDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/entity/UsersDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/entity/WeekPaperDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/entity/WeekPaperDetailDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/entity/model/PProjectModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/entity/model/ProjectModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/entity/model/WeekPaperTreeModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/excel/ClassExcelListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/BusinessStudyDetailMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/BusinessStudyMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/CheckingInfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/ClassPointsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/ClassScoreMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/ClassTypeDicMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/ClassesMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/DailyTypeDicMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/DailyWorkMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/DictTypeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/FinalScoreDetailMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/FinalScoreMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/FinalScoreTypeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/FingerprintMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/MenuElementMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/MenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/MenuPermissionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/MonthCheckingMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/ProjectInfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/RoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/UserCheckingMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/UserMonthStatusMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/UsersMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/WeekPaperDetailMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/WeekPaperMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/mapper/BusinessStudyDetailMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/mapper/BusinessStudyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/mapper/CheckingInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/mapper/ClassPointMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/mapper/ClassScoreMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/mapper/ClassTypeDicMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/mapper/ClassesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/mapper/DailyTypeDicMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/mapper/DailyWorkMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/mapper/DictTypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/mapper/FinalScoreDetailMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/mapper/FinalScoreMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/mapper/FinalScoreTypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/mapper/FingeprintMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/mapper/MenuElementMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/mapper/MenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/mapper/MenuPermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/mapper/MonthCheckingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/mapper/ProjectInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/mapper/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/mapper/UserCheckingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/mapper/UserMonthStatusMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/mapper/UsersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/mapper/WeekPaperDetailMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/mapper/mapper/WeekPaperMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/schedule/ScheduleMission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/service/CalculateService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/service/LoginService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/service/ProjectService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/service/UploadService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/service/impl/CalculateServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/service/impl/LoginServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/service/impl/ProjectServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/service/impl/UploadServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/utils/CheckException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/utils/CommonUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/utils/CommonValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/utils/EasyExcelUtil$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/utils/EasyExcelUtil$ModelExcelListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/utils/EasyExcelUtil$StringExcelListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/utils/EasyExcelUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/utils/FileUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/utils/JsonObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/utils/LoginException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/utils/Md5Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/utils/RegImageUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/utils/StringUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/utils/annotation/RequiresPermissions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/utils/annotation/RequiresRoles.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/word/WordUtil$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/com/jyfy/checking/word/WordUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/07weekPaperSummary.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/test1.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/weekPaper.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/weekPaperSummary.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/cn/com/jyfy/checking/CheckingApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/cn/com/jyfy/checking/ExcelTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/cn/com/jyfy/checking/MyBatisPlusGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/cn/com/jyfy/checking/Test1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/cn/com/jyfy/checking/Test2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/checking.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/doc/checking.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/checking.pdm" beforeDir="false" afterPath="$PROJECT_DIR$/doc/checking.pdm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/aspect/AuthAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/aspect/AuthAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/entity/MenuDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/entity/MenuDO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/entity/RoleDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/entity/RoleDO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/entity/UsersDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/entity/UsersDO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/mapper/MenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/mapper/MenuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/mapper/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/mapper/RoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/mapper/mapper/ClassScoreMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/mapper/mapper/ClassScoreMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/mapper/mapper/MenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/mapper/mapper/MenuMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/mapper/mapper/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/mapper/mapper/RoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/mapper/mapper/UserCheckingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/mapper/mapper/UserCheckingMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/service/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/service/impl/CalculateServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/service/impl/CalculateServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/service/impl/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/service/impl/LoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cn/com/jyfy/checking/CheckingApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/com/jyfy/checking/CheckingApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cn/com/jyfy/checking/MyBatisPlusGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/com/jyfy/checking/MyBatisPlusGenerator.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="checking" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="AnnotationType" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/service/impl/ProjectServiceImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/utils/CommonUtil.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/controller/ProjectController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/static/07weekPaperSummary.ftl" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/controller/LoginController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/controller/WeekPaperController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/controller/MonthCheckingController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/mapper/mapper/MonthCheckingMapper.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/word/WordUtil.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/com/jyfy/checking/controller/BusinessStudyController.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1PJndJymVRYBz8lfXj10idu3UDS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Authority_System/warden/admin-center/pom.xml" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\checking\checking\src\main\java\cn\com\jyfy\checking\mapper\mapper" />
+      <recent name="D:\Projects\checking\checking\src\main\java\cn\com\jyfy\checking\mapper" />
+      <recent name="D:\Projects\checking\checking\src\main\java\cn\com\jyfy\checking\entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Projects\checking\checking\src\main\resources\static" />
+      <recent name="E:\Projects\checking\checking\src\main\java\cn\com\jyfy\checking\mapper\mapper" />
+      <recent name="E:\Projects\checking\checking\src\main\java\cn\com\jyfy\checking\mapper" />
+      <recent name="E:\Projects\checking\checking\src\main\java\cn\com\jyfy\checking\entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CheckingApplication">
+    <configuration name="ExcelTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.jyfy.checking.ExcelTest" />
+      <module name="checking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.jyfy.checking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisPlusGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.jyfy.checking.MyBatisPlusGenerator" />
+      <module name="checking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.jyfy.checking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.jyfy.checking.utils.StringUtil" />
+      <module name="checking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.jyfy.checking.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckingApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="checking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.jyfy.checking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.com.jyfy.checking" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.jyfy.checking.CheckingApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckingApplicationTests.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="checking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.jyfy.checking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.com.jyfy.checking" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.jyfy.checking.CheckingApplicationTests" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="checking" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.jyfy.checking.CheckingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CheckingApplicationTests.test1" />
+        <item itemvalue="JUnit.CheckingApplicationTests.contextLoads" />
+        <item itemvalue="Application.MyBatisPlusGenerator" />
+        <item itemvalue="Application.StringUtil" />
+        <item itemvalue="Application.ExcelTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9fc569e1-b9ca-43f4-b6b2-c6b989212986" name="Default Changelist" comment="" />
+      <created>1565601152101</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565601152101</updated>
+      <workItem from="1565601154720" duration="221000" />
+      <workItem from="1566291410040" duration="961000" />
+      <workItem from="1566356419101" duration="1278000" />
+      <workItem from="1566964584239" duration="6158000" />
+      <workItem from="1567036043277" duration="6744000" />
+      <workItem from="1567386468284" duration="4730000" />
+      <workItem from="1567473928238" duration="616000" />
+      <workItem from="1568279457234" duration="1306000" />
+      <workItem from="1568594074721" duration="63000" />
+      <workItem from="1568594435824" duration="10591000" />
+      <workItem from="1569228082914" duration="843000" />
+      <workItem from="1569544126223" duration="619000" />
+      <workItem from="1570493459095" duration="2431000" />
+      <workItem from="1570605547466" duration="595000" />
+      <workItem from="1570668989068" duration="12229000" />
+      <workItem from="1570753569266" duration="8767000" />
+      <workItem from="1571282095369" duration="4000" />
+      <workItem from="1571282652802" duration="249000" />
+      <workItem from="1571282952243" duration="10452000" />
+      <workItem from="1571356756061" duration="12869000" />
+      <workItem from="1571532476264" duration="3047000" />
+      <workItem from="1571639238619" duration="341000" />
+      <workItem from="1571639794122" duration="3018000" />
+      <workItem from="1571643561588" duration="1510000" />
+      <workItem from="1571646953669" duration="40055000" />
+      <workItem from="1571874301599" duration="616000" />
+      <workItem from="1571877938672" duration="26530000" />
+      <workItem from="1572221910829" duration="90952000" />
+      <workItem from="1572657795431" duration="610000" />
+      <workItem from="1572826615220" duration="50770000" />
+      <workItem from="1573688909289" duration="9579000" />
+      <workItem from="1574058148097" duration="41000" />
+      <workItem from="1574125503320" duration="902000" />
+      <workItem from="1574146144191" duration="26245000" />
+      <workItem from="1574650560195" duration="1382000" />
+      <workItem from="1574662745450" duration="1297000" />
+      <workItem from="1574667355529" duration="1808000" />
+      <workItem from="1574738565144" duration="847000" />
+      <workItem from="1574752630177" duration="10000" />
+      <workItem from="1574752649964" duration="529000" />
+      <workItem from="1574754089571" duration="1029000" />
+      <workItem from="1575249197366" duration="20396000" />
+      <workItem from="1575367834978" duration="17918000" />
+      <workItem from="1575502511732" duration="1359000" />
+      <workItem from="1575880318179" duration="1397000" />
+      <workItem from="1575957719476" duration="2419000" />
+      <workItem from="1576022680907" duration="4981000" />
+      <workItem from="1576049826578" duration="3809000" />
+      <workItem from="1576107993345" duration="11137000" />
+      <workItem from="1576567393377" duration="458000" />
+      <workItem from="1576651945694" duration="824000" />
+      <workItem from="1576725530780" duration="201000" />
+      <workItem from="1576725855213" duration="160000" />
+      <workItem from="1576885803303" duration="2920000" />
+      <workItem from="1577081529855" duration="1240000" />
+      <workItem from="1577145800640" duration="619000" />
+      <workItem from="1577778783481" duration="13000" />
+      <workItem from="1578398202880" duration="1777000" />
+      <workItem from="1578440487686" duration="1924000" />
+      <workItem from="1578471691547" duration="1368000" />
+      <workItem from="1578527026039" duration="24700000" />
+      <workItem from="1578787476888" duration="2412000" />
+    </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1571711743715</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571711743715</updated>
+    </task>
+    <task id="LOCAL-00002" summary="周报功能1">
+      <created>1572416783671</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572416783671</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <MESSAGE value="周报功能1" />
+    <option name="LAST_COMMIT_MESSAGE" value="周报功能1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="179" key="#Auto_Import" timestamp="1578534837108">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="179" key="#Auto_Import/0.0.1920.1040@0.0.1920.1040" timestamp="1578534837108" />
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1578534708318">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578534708318" />
+    <state width="1877" height="221" key="GridCell.Tab.0.bottom" timestamp="1578789116329">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="221" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578789116329" />
+    <state width="1877" height="221" key="GridCell.Tab.0.center" timestamp="1578789116329">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="221" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578789116329" />
+    <state width="1877" height="221" key="GridCell.Tab.0.left" timestamp="1578789116329">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="221" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578789116329" />
+    <state width="1877" height="221" key="GridCell.Tab.0.right" timestamp="1578789116329">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="221" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578789116329" />
+    <state width="1877" height="221" key="GridCell.Tab.1.bottom" timestamp="1578789116330">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="221" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578789116330" />
+    <state width="1877" height="221" key="GridCell.Tab.1.center" timestamp="1578789116329">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="221" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578789116329" />
+    <state width="1877" height="221" key="GridCell.Tab.1.left" timestamp="1578789116329">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="221" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578789116329" />
+    <state width="1877" height="221" key="GridCell.Tab.1.right" timestamp="1578789116329">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="221" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578789116329" />
+    <state x="636" y="253" width="647" height="534" key="find.popup" timestamp="1578788032604">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="636" y="253" width="647" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578788032604" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1578550549263">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578550549263" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/cn/com/jyfy/checking/CheckingApplicationTests.java</url>
+          <line>41</line>
+          <properties class="cn.com.jyfy.checking.CheckingApplicationTests" method="contextLoads">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/cn/com/jyfy/checking/ExcelTest.java</url>
+          <line>13</line>
+          <properties class="cn.com.jyfy.checking.ExcelTest" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

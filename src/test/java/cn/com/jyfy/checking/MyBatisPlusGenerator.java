@@ -47,7 +47,7 @@ public class MyBatisPlusGenerator {
                 // 指定表名 字段名是否使用下划线
                 .setNaming(NamingStrategy.underline_to_camel) // 数据库表映射到实体的命名策略
                 .setTablePrefix("CS_")
-                .setInclude("CS_PROJECT_INFO");  // 生成的表
+                .setInclude("CS_MENU_ELEMENT");  // 生成的表
 
 
         //4. 包名策略配置

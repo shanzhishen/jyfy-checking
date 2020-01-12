@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.jyfy.checking.mapper.WeekPaperDetailMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.com.jyfy.checking.entity.WeekPaperDetailDO">
+        <id column="DETAIL_ID" property="detailId" />
+        <result column="WEEK_ID" property="weekId" />
+        <result column="TYPE" property="type" />
+        <result column="CONTENT" property="content" />
+        <result column="OPER_SITUATION" property="operSituation" />
+        <result column="OPER_PROGRESS" property="operProgress" />
+        <result column="OPER_RATE" property="operRate" />
+        <result column="PLAN_FINISH_TIME" property="planFinishTime" />
+        <result column="DEGREE" property="degree" />
+        <result column="ORD" property="ord" />
+        <result column="SOLUTION" property="solution" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DETAIL_ID, WEEK_ID, TYPE, CONTENT, OPER_SITUATION, OPER_PROGRESS, OPER_RATE, PLAN_FINISH_TIME, DEGREE, ORD, SOLUTION
+    </sql>
+
+    <select id="getDetailByDay" resultType="hashmap">
+select c.project_id "projectId",
+       c.project_name "projectName",
+       c.pid "pid",
+       c.pname "pname",
+       a.TYPE "type",
+       a.CONTENT "content",
+       a.OPER_SITUATION "operSituation",
+       a.OPER_PROGRESS "operProgress",
+       a.OPER_RATE "operRate",
+       a.PLAN_FINISH_TIME "planFinishTime",
+       a.DEGREE "degree",
+       a.SOLUTION "solution"
+from cs_week_paper_detail a join cs_week_paper b on a.week_id = b.week_id
+join cs_project_info c on b.project_id = c.project_id
+where b.monday = to_date('${week}', 'yyyy-MM-dd')
+<if test="types!=null">
+and a.type in
+    <foreach collection="types" open="(" close=")" separator="," item="item">
+        ${item}
+    </foreach>
+</if>
+order by b.project_id, a.ord
+    </select>
+
+</mapper>

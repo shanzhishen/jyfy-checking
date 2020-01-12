@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.jyfy.checking.mapper.ClassScoreMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.com.jyfy.checking.entity.ClassScoreDO">
+        <id column="ID" property="id"/>
+        <result column="CHECK_ID" property="checkId"/>
+        <result column="ZHU1" property="zhu1"/>
+        <result column="ZHU2" property="zhu2"/>
+        <result column="MEN1" property="men1"/>
+        <result column="MEN2" property="men2"/>
+        <result column="ZHI" property="zhi"/>
+        <result column="H24" property="h24"/>
+        <result column="POINTS" property="points"/>
+        <result column="MAIN_POINTS" property="mainPoints"/>
+        <result column="CREATE_TIME" property="createTime"/>
+        <result column="JNUM" property="jnum"/>
+        <result column="USER_NAME" property="userName"/>
+        <result column="MONTH" property="month"/>
+        <result column="ON_DUTY" property="onDuty"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ID, CHECK_ID, ZHU1, ZHU2, MEN1, MEN2, ZHI, H24, POINTS, MAIN_POINTS, CREATE_TIME, JNUM, USER_NAME, MONTH,ON_DUTY
+    </sql>
+
+    <select id="getAllScore" resultType="java.util.HashMap">
+        select count(1) "num", user_name "userName",class_name "className",class_type "classType",jnum "jnum"
+        from cs_classes
+        where day >= to_date(${start},'yyyyMMdd') and day &lt;= to_date(${end},'yyyyMMdd')
+        group by class_name,user_name,class_type ,jnum
+    </select>
+
+
+</mapper>

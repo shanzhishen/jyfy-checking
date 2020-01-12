@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.jyfy.checking.mapper.MenuElementMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.com.jyfy.checking.entity.MenuElementDO">
+        <id column="ELEMENT_ID" property="elementId" />
+        <result column="ELEMENT_NAME" property="elementName" />
+        <result column="ELEMENT_CODE" property="elementCode" />
+        <result column="REMARK" property="remark" />
+        <result column="CREATE_TIME" property="createTime" />
+        <result column="CREATE_BY" property="createBy" />
+        <result column="STATE" property="state" />
+        <result column="DEL_TIME" property="delTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ELEMENT_ID, ELEMENT_NAME, ELEMENT_CODE, REMARK, CREATE_TIME, CREATE_BY, STATE, DEL_TIME
+    </sql>
+
+    <select id="getMenuElementByRole" resultMap="BaseResultMap">
+        select c.ELEMENT_ID ELEMENT_ID, c.ELEMENT_NAME ELEMENT_NAME, c.ELEMENT_CODE ELEMENT_CODE, c.REMARK REMARK
+        from  cs_role a left join
+        cs_role_menu_element_rel b on  a.role_id = b.role_id
+        left join cs_menu_element c on b.element_id = c.element_id
+        where a.state = 1 and c.state = 1
+        and a.role_id in
+        <foreach collection="roles" item="item" separator="," open="(" close=")">
+            ${item.roleId}
+        </foreach>
+    </select>
+
+
+</mapper>

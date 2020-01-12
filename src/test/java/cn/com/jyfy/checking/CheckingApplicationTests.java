@@ -33,23 +33,29 @@ import java.util.Map;
 public class CheckingApplicationTests {
 
     @Autowired
-    private ProjectService projectService;
+    private RoleMapper roleMapper;
 
     @Autowired
-    private WeekPaperMapper weekPaperMapper;
+    private MenuElementMapper menuElementMapper;
 
     @Test
     public void contextLoads() {
-
-        String week = "2019-10-30 00:00:00";
-        projectService.downloadSummary(week);
+        System.out.println(roleMapper.getRolesByJnum("3190"));
     }
 
 
     @Test
     public void test1() {
-        String startDate = "2019-10-28";
-        List<Map<String, Object>> safeSystemList = weekPaperMapper.getSafeProject(startDate);
+        List<RoleDO> roleDOS = new ArrayList<>();
+        RoleDO roleDO1 = new RoleDO();
+        roleDO1.setRoleId(4);
+        RoleDO roleDO2 = new RoleDO();
+        roleDO2.setRoleId(13);
+        roleDOS.add(roleDO1);
+        roleDOS.add(roleDO2);
+
+        System.out.println(menuElementMapper.getMenuElementByRole(roleDOS));
+
     }
 
 

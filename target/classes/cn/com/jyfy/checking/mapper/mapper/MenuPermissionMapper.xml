@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.jyfy.checking.mapper.MenuPermissionMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.com.jyfy.checking.entity.MenuPermissionDO">
+        <id column="MENU_ID" property="menuId" />
+        <result column="ROLE_ID" property="roleId" />
+        <result column="CRE" property="cre" />
+        <result column="SEL" property="sel" />
+        <result column="UPD" property="upd" />
+        <result column="DEL" property="del" />
+        <result column="DOWNLOAD" property="download" />
+        <result column="UPLOAD" property="upload" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        MENU_ID, ROLE_ID, CRE, SEL, UPD, DEL, DOWNLOAD, UPLOAD
+    </sql>
+
+</mapper>

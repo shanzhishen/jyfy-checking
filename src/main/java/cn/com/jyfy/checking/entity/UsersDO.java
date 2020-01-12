@@ -7,6 +7,7 @@ import java.time.LocalDateTime;
 import lombok.Data;
 
 import java.io.Serializable;
+import java.util.Set;
 
 /**
  * <p>
@@ -50,6 +51,11 @@ public class UsersDO extends Model<UsersDO> {
 
     private  Long position;
 
+    @TableField(exist = false)
+    private Set<String> roles;
+
+    @TableField(exist = false)
+    private Set<String> permissions;
 
     @Override
     protected Serializable pkVal() {
