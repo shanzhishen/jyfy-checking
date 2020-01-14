@@ -3,11 +3,15 @@ package cn.com.jyfy.checking.controller;
 import cn.com.jyfy.checking.entity.FinalScoreDO;
 import cn.com.jyfy.checking.entity.FinalScoreDetailDO;
 import cn.com.jyfy.checking.mapper.FinalScoreDetailMapper;
+import cn.com.jyfy.checking.mapper.UsersMapper;
+import cn.com.jyfy.checking.utils.CheckException;
+import cn.com.jyfy.checking.utils.CommonValue;
 import cn.com.jyfy.checking.utils.JsonObject;
 import cn.com.jyfy.checking.utils.StringUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import org.aspectj.lang.annotation.Around;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -24,6 +28,9 @@ public class FinalDetailScoreController {
 
     @Autowired
     private FinalScoreDetailMapper finalScoreDetailMapper;
+
+    @Autowired
+    private UsersMapper usersMapper;
 
     @ApiOperation("获取最终得分表")
     @GetMapping("get")

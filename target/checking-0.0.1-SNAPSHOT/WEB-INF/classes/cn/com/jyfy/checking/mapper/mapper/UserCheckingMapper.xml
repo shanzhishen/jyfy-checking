@@ -31,7 +31,8 @@
         select a.jnum "jnum",a.user_name "userName", nvl(b.points,0) "points"
         from cs_users a left join cs_user_checking b on a.jnum = b.checked_jnum and b.check_id = ${checkId}
         and b.check_jnum = '${jnum}'
-        where a.position > 10 and a.state = 1
+        where a.state = 1
+        and a.jnum in (select jnum from v_user_with_role_code where role_code = 'worker')
         order by a.ord
     </select>
 
@@ -41,7 +42,8 @@
             from cs_user_checking
             where check_id = ${checkId}
             group by check_jnum,check_name)
-        and (position >= 10 or position = 4)
+        and jnum in (select jnum from v_user_with_role_code where role_code = 'worker' or role_code = 'lanke')
+        and state = 1
     </select>
 
 

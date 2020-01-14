@@ -386,7 +386,6 @@ public class CalculateServiceImpl implements CalculateService {
         queryWrapper.eq("check_id", checkId);
         finalScoreMapper.delete(queryWrapper);
 
-
         List<Map<String, Object>> finalScores = finalScoreMapper.calFinalScore(checkId);
         for (Map<String, Object> scoreMap : finalScores) {
             String jnum = (String) scoreMap.get("jnum");

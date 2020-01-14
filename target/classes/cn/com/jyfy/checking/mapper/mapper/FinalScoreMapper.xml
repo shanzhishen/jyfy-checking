@@ -21,7 +21,8 @@
     <select id="calFinalScore" resultType="java.util.HashMap">
         select a.jnum "jnum",a.user_name "userName",b.type "type",nvl(sum(b.point)/nvl(count(1),1),0) "point", sum(b.point) "sum"
         from cs_users a left join cs_final_score_detail b on a.jnum = b.jnum
-        where b.check_id = ${checkId} and a.position > 10 and a.state = 1
+        where b.check_id = ${checkId} and a.state = 1
+        and a.jnum in (select jnum from v_user_with_role_code where role_code = 'worker')
         group by a.jnum,a.user_name,b.type
         order by a.user_name,b.type
     </select>
@@ -29,7 +30,8 @@
     <select id="getFinalScore" resultType="java.util.HashMap">
         select a.jnum "jnum",a.user_name "userName",t.type "type",t.point "point"
         from cs_users a left join cs_final_score t on a.jnum=t.jnum
-        where t.check_id = ${checkId} and a.position > 10 and a.state = 1
+        where t.check_id = ${checkId} and a.state = 1
+        and a.jnum in (select jnum from v_user_with_role_code where role_code = 'worker')
         order by a.ord,t.jnum,t.type
     </select>
 </mapper>

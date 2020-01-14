@@ -20,15 +20,23 @@
     </sql>
 
     <select id="getMenu" resultMap="BaseResultMap">
-     select  c.MENU_ID MENU_ID, c.PARENT_ID PARENT_ID, c.MENU_NAME MENU_NAME, c.IMAGE_URL IMAGE_URL, c.URL URL
-    from cs_role a  join cs_menu_permission b on  a.role_id = b.role_id
-     join cs_menu c on b.menu_id = c.menu_id
-    where a.state = 1 and c.server = ${server}
-    and a.role_code in
-    <foreach collection="roles" item="item" open="（" close=")" separator=",">
-        '${item}'
-    </foreach>
-    order by c.ord
+        select c.MENU_ID   MENU_ID,
+        c.PARENT_ID PARENT_ID,
+        c.MENU_NAME MENU_NAME,
+        c.IMAGE_URL IMAGE_URL,
+        c.URL       URL
+        from cs_menu c
+        where c.server = 1
+        and c.menu_id in
+        (
+            select b.menu_id
+            from cs_role a  left join cs_menu_permission b   on a.role_id = b.role_id
+            where a.state = 1   and a.role_code in
+            <foreach collection="roles" item="item" open="（" close=")" separator=",">
+                '${item}'
+            </foreach>
+        )
+        order by c.ord
     </select>
 
 

@@ -27,10 +27,12 @@
     </sql>
 
     <select id="getAllScore" resultType="java.util.HashMap">
-        select count(1) "num", user_name "userName",class_name "className",class_type "classType",jnum "jnum"
-        from cs_classes
+        select count(1) "num", a.user_name "userName",a.class_name "className",a.class_type "classType",a.jnum "jnum"
+        from cs_classes a join cs_users b on a.jnum = b.jnum
         where day >= to_date(${start},'yyyyMMdd') and day &lt;= to_date(${end},'yyyyMMdd')
-        group by class_name,user_name,class_type ,jnum
+            and b.state = 1
+        group by a.class_name,a.user_name,a.class_type ,a.jnum,b.ord
+        order by b.ord
     </select>
 
 

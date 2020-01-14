@@ -23,10 +23,12 @@
 
 
     <select id="notSendScore" resultType="hashmap">
-        select jnum "jnum", user_name "username"
-          from cs_users
-         where role_id > 10 and state = 1
-           and jnum not in
+        select a.jnum "jnum", a.user_name "username"
+          from cs_users a left join cs_user_role_rel b on a.jnum = b.jnum
+          left join cs_role c on b.role_id = c.role_id
+         where c.role_code = 'worker' and a.state = 1
+           and a.jnum not in
                (select jnum from cs_business_study_detail where study_id = ${id})
+        order by a.ord;
     </select>
 </mapper>

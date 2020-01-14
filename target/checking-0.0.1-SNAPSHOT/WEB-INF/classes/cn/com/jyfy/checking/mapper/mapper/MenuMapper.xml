@@ -12,12 +12,6 @@
         <result column="CREATE_TIME" property="createTime" />
         <result column="ORD" property="ord" />
         <result column="ROLE_ID" property="roleId" />
-        <result column="CRE" property="cre" />
-        <result column="SEL" property="sel" />
-        <result column="UPD" property="upd" />
-        <result column="DEL" property="del" />
-        <result column="DOWNLOAD" property="download" />
-        <result column="UPLOAD" property="upload" />
     </resultMap>
 
     <!-- 通用查询结果列 -->
@@ -26,12 +20,23 @@
     </sql>
 
     <select id="getMenu" resultMap="BaseResultMap">
-        select c.MENU_ID MENU_ID, c.PARENT_ID PARENT_ID, c.MENU_NAME MENU_NAME, c.IMAGE_URL IMAGE_URL, c.URL URL, c.CREATE_TIME CREATE_TIME, c.ORD ORD, a.ROLE_ID ROLE_ID,
-               b.sel,b.upd,b.cre,b.del,b.download,b.upload
-        from cs_users a left join cs_menu_permission b on a.role_id = b.role_id
-        left join cs_menu c on b.menu_id = c.menu_id
-        where a.jnum = '${jnum}' and c.server = ${server} and a.state = 1
-        order by ord
+        select c.MENU_ID   MENU_ID,
+        c.PARENT_ID PARENT_ID,
+        c.MENU_NAME MENU_NAME,
+        c.IMAGE_URL IMAGE_URL,
+        c.URL       URL
+        from cs_menu c
+        where c.server = 1
+        and c.menu_id in
+        (
+            select b.menu_id
+            from cs_role a  left join cs_menu_permission b   on a.role_id = b.role_id
+            where a.state = 1   and a.role_code in
+            <foreach collection="roles" item="item" open="（" close=")" separator=",">
+                '${item}'
+            </foreach>
+        )
+        order by c.ord
     </select>
 
 

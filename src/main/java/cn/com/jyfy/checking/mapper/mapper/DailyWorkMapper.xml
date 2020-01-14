@@ -30,7 +30,9 @@
               and t.day >= to_date(${start},'yyyyMMddHH24miss')
               and t.day &lt;= to_date(${end},'yyyyMMddHH24miss')
         where
-              a.position > 10 and a.state = 1
+              a.state = 1 and
+              a.jnum in
+              (select jnum from v_user_with_role_code where role_code = 'worker')
         group by a.jnum,a.user_name
     </select>
 
@@ -39,7 +41,8 @@
         from cs_users a left join  cs_daily_work t on a.jnum = t.jnum and t.points >= 0
               and t.day >= to_date(${start},'yyyyMMddHH24miss')
               and t.day &lt;= to_date(${end},'yyyyMMddHH24miss')
-        where a.position > 10 and a.state = 1
+        where a.state = 1
+        and a.jnum in (select jnum from v_user_with_role_code where role_code = 'worker')
         group by a.jnum,a.user_name
     </select>
 
@@ -49,7 +52,9 @@
         from cs_users a left join  cs_daily_work t on a.jnum = t.jnum and t.points &lt; 0
               and t.day >= to_date(${start},'yyyyMMddHH24miss')
               and t.day &lt;= to_date(${end},'yyyyMMddHH24miss')
-        where a.position > 10 and a.state = 1
+        where a.state = 1 and
+        a.jnum in
+            (select jnum from v_user_with_role_code where role_code = 'worker')
         group by a.jnum,a.user_name
     </select>
 

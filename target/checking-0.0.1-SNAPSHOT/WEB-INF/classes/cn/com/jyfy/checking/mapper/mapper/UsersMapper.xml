@@ -20,9 +20,15 @@
         JNUM, ROLE_ID, USER_NAME, PASSWORD, CREATE_TIME, STATE, IS_ADMIN, ORD,POSITION
     </sql>
 
-    <select id="normalUsers" resultType="map">
-        select jnum "jnum", user_name "userName" from cs_users where position > 10 and state = 1 order by ord
+    <select id="getUserByRoleCode" resultType="hashmap">
+        select  a.jnum "jnum", a.user_name "userName"
+        from cs_users a  left join cs_user_role_rel b on a.jnum = b.jnum
+        left join cs_role c on b.role_id = c.role_id
+        where a.state = 1 and c.state = 1 and c.role_code = '${roleCode}'
+        order by a.ord
     </select>
+
+
 
 
 </mapper>

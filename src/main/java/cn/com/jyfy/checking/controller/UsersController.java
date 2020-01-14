@@ -1,9 +1,8 @@
 package cn.com.jyfy.checking.controller;
 
-import cn.com.jyfy.checking.entity.UsersDO;
 import cn.com.jyfy.checking.mapper.UsersMapper;
+import cn.com.jyfy.checking.utils.CommonValue;
 import cn.com.jyfy.checking.utils.JsonObject;
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,7 +25,7 @@ public class UsersController {
     @ApiOperation("获取工作人员的列表")
     @GetMapping("getList")
     public JsonObject getList(){
-        List<Map<String,Object>> normalUser = usersMapper.normalUsers();
+        List<Map<String,Object>> normalUser = usersMapper.getUserByRoleCode(CommonValue.ROLE_WORKER);
         return new JsonObject(normalUser);
     }
 

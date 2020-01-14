@@ -31,7 +31,8 @@
         from cs_classes a join cs_users b on a.jnum = b.jnum
         where day >= to_date(${start},'yyyyMMdd') and day &lt;= to_date(${end},'yyyyMMdd')
             and b.state = 1
-        group by a.class_name,a.user_name,a.class_type ,a.jnum
+        group by a.class_name,a.user_name,a.class_type ,a.jnum,b.ord
+        order by b.ord
     </select>
 
 

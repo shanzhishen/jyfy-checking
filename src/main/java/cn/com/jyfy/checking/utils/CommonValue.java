@@ -17,6 +17,11 @@ public  class CommonValue {
     public static final String H24 = "24小时";
     public static final String H24_ZHI = "24小时/值";
 
+    // role_code
+    public static final String ROLE_WORKER = "worker";
+    public static final String ROLE_MANAGER = "manager";
+    public static final String ROLE_WORKPAPER = "weekpaper";
+
     public static final Long BASIC_TYPE = 1L;
     public static final Long COM_TYPE = 2L;
     public static final Long DAILY_TYPE =3L;

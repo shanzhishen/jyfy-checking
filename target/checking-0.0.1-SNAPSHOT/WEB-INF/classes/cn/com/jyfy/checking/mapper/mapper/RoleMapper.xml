@@ -8,11 +8,21 @@
         <result column="ROLE_NAME" property="roleName" />
         <result column="CREATE_TIME" property="createTime" />
         <result column="STATE" property="state" />
+        <result column="ROLE_CODE" property="roleCode" />
     </resultMap>
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        ROLE_ID, ROLE_NAME, CREATE_TIME, STATE
+        ROLE_ID, ROLE_NAME, CREATE_TIME, STATE, ROLE_CODE
     </sql>
+
+    <select id="getRolesByJnum" resultMap="BaseResultMap">
+        select  c.ROLE_ID ROLE_ID, c.ROLE_NAME ROLE_NAME, c.CREATE_TIME CREATE_TIME, c.STATE STATE, c.ROLE_CODE ROLE_CODE
+        from cs_users a left join cs_user_role_rel b on a.jnum = b.jnum
+        left join cs_role c on b.role_id = c.role_id
+        where a.jnum = '${jnum}' and a.state = 1
+        and c.state = 1
+    </select>
+
 
 </mapper>
